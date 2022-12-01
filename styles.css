@@ -1,0 +1,377 @@
+/*GLOBAL*/
+/*Body*/
+html {
+	font-size: 80%;
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	background-color: #f3f3f3;
+	font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.7778;
+	vertical-align: baseline;
+}
+
+ul {
+	padding: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/*Typography*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Alegreya", Georgia, serif;
+	font-weight: 100;
+}
+
+/*Navigation*/
+.main-navigation {
+	font-size: 75%;
+	padding: 0.0889em;
+	width: 100%;
+}
+
+.main-navigation ul{
+	list-style-type: none;
+	color: #fff;
+}
+
+.main-navigation li{
+	padding-right: 3px;
+	text-transform: capitalize;
+}
+
+.main-navigation a {
+	color: #fff;
+	letter-spacing: .03em;	
+}
+
+.navbar-brand{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.navbar-brand span{
+  font-size: 53%;
+}
+
+.zeroPadding{
+	margin: auto;
+}
+
+/*Index Page*/
+/*background-card*/
+#row1 .card-img{
+	opacity: 0.97;
+}
+
+#row1 #img-overlay1{
+	background-color: black;
+	opacity: 0.1;
+}
+
+#row1 h1{
+    font-size: 2.34vw;
+	font-weight: lighter;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	text-shadow: 2px 2px 20px black;
+} 
+
+#row1 h4{
+  font-size: 1.405vw;
+	font-weight: 400;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";  
+	text-shadow: 2px 2px 20px;
+}
+
+#row2 {
+	font-size: 115%;
+	font-weight: 600;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#row2 p {
+	line-height: 35px;
+}
+
+#indexContainerFluid3 {
+	background-color:  #f3f3f3; 
+}
+
+#row3 .card{
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 83%;
+	font-weight: 600;
+	box-shadow: 2px 2px 5px #d0d0d0;
+}
+
+#row3 a:hover {
+	text-decoration: underline;
+}
+
+/*Course Page*/
+#coursesRow1 p {
+	line-height: 35px;
+	font-size: 115%;
+	font-weight: 600;
+	font-family: -apple-system, BlinkMacSystemFont, 'segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mView{
+	display: none;
+}
+
+#courseList .card {
+	box-shadow: 3px 3px 5px #d0d0d0;
+	border-bottom: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #28a745;
+	width: 100%;
+	overflow: hidden;
+}
+
+#courseList .card .card-img{
+	width: 100%;
+}
+
+#courseList .card #firstOverlay{
+	top: 40.5%;
+	height: 10%;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#courseList .card #secondOverlay{
+	top: 50.5%;
+	height: 49.5%;
+}
+
+.shade{
+  background-color: black;
+  animation-name: fadeIn;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+.imgHighlight{
+  animation-name: zoomIn;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn{
+	from{opacity: 0;}
+	to{opacity: 0.3;}
+}
+
+@keyframes zoomIn{
+	from{transform: scale(1);}
+	to{transform: scale(1.1);}
+}
+
+/*Tech Support*/
+#techSupportRow1 h4 > a{
+	text-shadow: 2px 1px 5px black;
+}
+
+#techSupportRow1 h4 > span{
+	letter-spacing: 3px;
+	opacity: 0.7;
+}
+
+#techSupportNav .nav-tab{
+	width: 100%;
+	border-bottom: 1px #f1f1f4;
+	list-style-type: none;
+}
+
+#techSupportNav .nav-tab li{
+	border-right: solid 2px #f3f3f3;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#techSupportRow2 .card{
+	width: 100%;
+	margin: auto;
+}
+
+/*About Page*/
+.aboutUs{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#leaderShip ul{
+    list-style-type: none;
+    padding: 0%;
+}
+
+.light {
+    background-color: white;
+}
+
+/*media query*/
+
+/*mobile-format*/
+@media screen and (max-width: 576px){
+
+
+  .navbar-brand span{
+    font-size: 53%;
+  }
+  .navbar-toggler-icon{
+    font-size: 65%;
+  }
+  .main-navigation{
+    font-size: 75%;
+    padding-left: 0px;
+  }
+  .navbar-nav{
+    padding-left: 9px;
+  }
+  .sub{
+    padding-left: 0px;
+  }
+  
+  /*mobile-format*/
+	.m-format{
+		font-weight: 300;
+		font-size: 83%;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		line-height: 30px;
+	}
+	
+	html{
+		font-size: 68%;
+  }
+	
+	#row1 h1{
+		font-size: 3.0vw;
+		font-weight: 300;
+	}
+	#row1 h4{
+		font-size: 2.0vw;
+		font-weight: 400;
+	}
+	#row2 h4{
+		font-size: 93%;
+	}
+  
+	#row2 p{
+		font-size: 73%;
+	}
+
+	#calltoAction{
+		font-size: 62%;
+	}
+
+	#row3 .card{
+		font-size: 73%;
+	}
+
+	#serviceInfo{
+		display: none;
+	}
+
+	#coursesRow1 h1, #coursesRow1 p, #coursesRow1 span{
+		display: none;
+	}
+
+	.mView{
+		display: inline;
+	}
+
+  #courseList .card{
+    height: 230px;
+  }
+
+	#techSupportBackgroundImg{
+		margin: auto;
+		width: 436px; 
+		height: 215px;
+	}
+
+  #switch{
+    position: relative;
+    top: -35px;
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (min-width: 0px){
+    #img-overlay{
+        padding: 70px;
+    } 
+}
+
+@media screen and (min-width: 576px){
+    .main-navigation ul{
+        padding-left: 5px;
+    }
+    #img-overlay{
+        padding: 100px;
+    }
+    .aboutUs{
+        padding-left: 113px;
+        padding-right: 113px;
+    }
+    #courseList .card{
+      width: 20%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #img-overlay{
+        padding: 150px;
+    }
+	
+	#courseList .card{
+      width: 21%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    #img-overlay{
+        padding: 200px;
+    }
+	
+	#courseList .card{
+      width: 22%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #img-overlay{
+        padding: 250px;
+    }
+	
+	#courseList .card{
+		width: 23%;
+		padding-bottom: 4rem;
+	}
+	
+	/*.card-resize #firstOverlay{
+		top: 70px;
+		height: 20px;
+    }
+    .card-resize #secondOverlay{
+		top: 90px;
+    }
+    .card-resize #firstOverlay {
+		padding-top: 5px;
+		padding-bottom: 5px;
+    }*/
+	
+	#techSupportBackgroundImg{
+		width: 100%;
+		height: 400px;
+	}
+}
+
